@@ -17,7 +17,7 @@ public class App {
             reader.readNext();
             List<String[]> allUser = reader.readAll();
             for (String[] row : allUser){
-                // row = {"Employee #","last name", "first name"}
+                // row = {"Employee Number","last name", "first name"}
                 System.out.println("Employee Number: " + row[0] +",Last Name:" +row[1] +",First Name:" +row[2]);
             }
         }catch(Exception e){
